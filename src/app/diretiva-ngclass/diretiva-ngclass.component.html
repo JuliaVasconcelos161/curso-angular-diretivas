@@ -1,0 +1,18 @@
+<h1>
+    <i class="bi"
+    [class.bi-balloon-heart]="!meuFavorito"
+    [class.bi-balloon-heart-fill]="meuFavorito"
+    (click)="onClick()"
+    ></i>
+</h1>
+
+
+<h1>
+    <i class="bi"
+    [ngClass]="{
+        'bi-balloon-heart': !meuFavorito,
+        'bi-balloon-heart-fill': meuFavorito
+    }"
+    (click)="onClick()"
+    ></i>
+</h1>
