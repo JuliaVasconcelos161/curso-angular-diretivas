@@ -12,4 +12,6 @@ Projeto feito acompanhando o curso de Angular disponível no canal da [Loiane](h
 
 - Angular
 - TypeScript
+- HTML
+- CSS
 
